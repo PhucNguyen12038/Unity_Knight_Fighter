@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{28AE0A3E-926E-A90C-0648-611762737FBF}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController.cs">
     <Files>
-      <File FileName="Assets/Scripts/KnightController.cs" Line="13" Column="36" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="23" Column="43" />
+      <File FileName="Assets/Scripts/KnightController.cs" Line="85" Column="23" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="95" Column="30" />
       <File FileName="Assets/Scripts/Tags.cs" />
       <File FileName="Assets/Scripts/AttackDamage.cs" />
+      <File FileName="Assets/Scripts/HealthScript.cs" />
+      <File FileName="Assets/Scripts/CharacterSoundFX.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="af2763ce-0966-4628-8e7d-fb85cc936129" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b39b33f6-a91d-40ab-b0e9-f0b05951d17e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
