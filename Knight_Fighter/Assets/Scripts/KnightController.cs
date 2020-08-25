@@ -14,11 +14,14 @@ public class KnightController : MonoBehaviour
     Animator anim;
 
     public GameObject attackPoint;
+
+    private CharacterSoundFX soundFX;
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+        soundFX = GetComponentInChildren<CharacterSoundFX>();
     }
 
     // Update is called once per frame
@@ -70,6 +73,7 @@ public class KnightController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                soundFX.Attack();
                 Attack();
             }
         }
